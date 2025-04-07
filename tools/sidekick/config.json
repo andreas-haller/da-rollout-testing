@@ -3,11 +3,11 @@
     {
       "id": "da-rollout",
       "title": "Rollout",
-      "environments": ["edit"], // Ensures Helix will accept this plugin in config bus
-      "daLibrary": true,        // Signals DA to use this plugin
-      "experience": "dialog",   // Optional - Specify if you want a medium size dialog.
-      "includePaths": ["DA"],   // Optional - Use if project could be opened in SharePoint / Google Drive
-      "icon": "https://{{URL}}.png", // Must be PNG due to CORs restrictions
+      "environments": ["edit"],
+      "daLibrary": true,
+      "experience": "dialog",
+      "includePaths": ["DA"],
+      "icon": "https://{{URL}}.png",
       "url": "https://da.live/nx/public/plugins/rollout.html"
     }
   ]
